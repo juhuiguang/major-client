@@ -16,16 +16,7 @@ import { NgJhipsterModule, JhiEventManager } from "ng-jhipster";
 import { BeradNavComponent } from './berad-nav/berad-nav.component';
 import { Routes, RouterModule } from "@angular/router";
 
-//定义系统路由
-const routes: Routes = [
-  {
-    path : '',
-    component: WelcomePageComponent
-  }, {
-    path : 'login',
-    component : LoginComponent
-  }
-];
+
 
 
 @NgModule({
@@ -34,8 +25,7 @@ const routes: Routes = [
     HttpModule,
     BrowserModule,
     CommonModule,
-    NgJhipsterModule,
-    RouterModule.forRoot(routes)
+    NgJhipsterModule
   ],
   providers:[
     SystemConfig,
