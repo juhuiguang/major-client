@@ -1,0 +1,5 @@
+  <ul nz-menu [nzMode]="'inline'" style="height:100%">
+    <li (click)="clickMenu(subMenu)" nz-menu-item *ngFor="let subMenu of subMenus" [ngClass]="{'ant-menu-item-selected': subMenu.selected}">
+      <span title><i class="anticon anticon-laptop"></i>{{subMenu.menuName}}</span>
+    </li>
+  </ul>

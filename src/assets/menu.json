@@ -1,0 +1,86 @@
+[
+    {
+        "menuName" : "专业管理",
+        "menuLink" : "major",
+        "menuRoles" :"major",
+        "subMenus":[
+            {
+                "menuName" : "专业维护",
+                "menuLink" : "majormanage",
+                "menuRoles" :"major"
+            },
+            {
+                "menuName" : "人才培养方案",
+                "menuLink" : "majortrain",
+                "menuRoles" :"major"
+            },{
+                "menuName" : "专业课程设置",
+                "menuLink" : "majorcourse",
+                "menuRoles" :"major"
+            }
+        ]
+    },{
+        "menuName" : "教学管理",
+        "menuLink" : "teach",
+        "menuRoles" :"major",
+        "subMenus":[
+            {
+                "menuName" : "教学任务管理",
+                "menuLink" : "teachtask",
+                "menuRoles" :"major,assistant"
+            },
+            {
+                "menuName" : "课程大纲设置",
+                "menuLink" : "coursestruct",
+                "menuRoles" :"major,teacher"
+            }
+        ]
+    },{
+        "menuName" : "资源管理",
+        "menuLink" : "resource",
+        "menuRoles" :"teacher",
+        "subMenus":[
+            {
+                "menuName" : "课程资源维护",
+                "menuLink" : "resourcemanage",
+                "menuRoles" :"teacher"
+            }
+        ]
+    },{
+        "menuName" : "基础数据",
+        "menuLink" : "basedata",
+        "menuRoles" :"major",
+        "subMenus":[
+            {
+                "menuName" : "课程库管理",
+                "menuLink" : "coursemanage",
+                "menuRoles" :"admin"
+            },
+            {
+                "menuName" : "课程树管理",
+                "menuLink" : "coursetree",
+                "menuRoles" :"admin,major"
+            },{
+                "menuName" : "学年学期维护",
+                "menuLink" : "termmanage",
+                "menuRoles" :"admin"
+            },{
+                "menuName" : "部门维护",
+                "menuLink" : "depmanage",
+                "menuRoles" :"admin"
+            },{
+                "menuName" : "班级维护",
+                "menuLink" : "classmanage",
+                "menuRoles" :"admin,assistant"
+            },{
+                "menuName" : "教工维护",
+                "menuLink" : "teachermanage",
+                "menuRoles" :"admin,assistant"
+            },{
+                "menuName" : "学生维护",
+                "menuLink" : "studentmanage",
+                "menuRoles" :"admin,assistant"
+            }
+        ]
+    }
+]

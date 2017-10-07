@@ -1,0 +1,5 @@
+<div class="logo"></div>
+<div class="bannertitle">{{sysconfig.systemName}}</div>
+<ul nz-menu [nzTheme]="'dark'" [nzMode]="'horizontal'" style="line-height: 64px;">
+  <li nz-menu-item *ngFor="let menu of sysconfig.menus; index as i; first as isFirst" (click)="selectMenu(menu)" [ngClass]="{'ant-menu-item-selected': menu.selected}">{{menu.menuName}}</li>
+</ul>
