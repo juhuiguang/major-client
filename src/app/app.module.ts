@@ -9,10 +9,9 @@ import { AppComponent } from './app.component';
 import { CommonModuleModule } from './common-module/common-module.module';
 import { LoginComponent } from './common-module/login/login.component';
 import { WelcomePageComponent } from './common-module/welcome-page/welcome-page.component';
-import { MajorManageComponent } from './business-module/major-manage/major-manage.component';
 import { BusinessModuleModule } from './business-module/business-module.module';
 
-//定义系统路由
+// 定义系统路由
 const routes: Routes = [
   {
     path : '',

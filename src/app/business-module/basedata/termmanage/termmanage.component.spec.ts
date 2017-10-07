@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MajorManageComponent } from './major-manage.component';
+import { TermmanageComponent } from './termmanage.component';
 
-describe('MajorManageComponent', () => {
-  let component: MajorManageComponent;
-  let fixture: ComponentFixture<MajorManageComponent>;
+describe('TermmanageComponent', () => {
+  let component: TermmanageComponent;
+  let fixture: ComponentFixture<TermmanageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MajorManageComponent ]
+      declarations: [ TermmanageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MajorManageComponent);
+    fixture = TestBed.createComponent(TermmanageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
