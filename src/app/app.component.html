@@ -1,4 +1,4 @@
-<nz-layout class="layout">
+<nz-layout class="layout" *ngIf="isLogin">
     <nz-header>
       <app-banner-bar></app-banner-bar>
     </nz-header>
@@ -16,3 +16,4 @@
       </nz-layout>
     </nz-layout>
   </nz-layout>
+  <app-login *ngIf="!isLogin"></app-login>

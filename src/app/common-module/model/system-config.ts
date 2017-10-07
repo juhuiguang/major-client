@@ -6,7 +6,7 @@ import { Observable } from "rxjs/Observable";
 @Injectable()
 export class SystemConfig{
     systemName:String="高校专业管理系统";
-    logo:String="logo.png";
+    logo:String="./assets/logo.png";
     rights:String="AlienLab ©️ 2017-2020";
     menus:Array<MenuObject>=new Array<MenuObject>();
 

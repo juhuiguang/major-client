@@ -15,17 +15,21 @@ import { CommonModule } from "@angular/common";
 import { NgJhipsterModule, JhiEventManager } from "ng-jhipster";
 import { BeradNavComponent } from './berad-nav/berad-nav.component';
 import { Routes, RouterModule } from "@angular/router";
+import {  ReactiveFormsModule } from "@angular/forms";
+import { Ng2Webstorage } from "ngx-webstorage";
 
 
 
 
 @NgModule({
   imports: [
+    ReactiveFormsModule,
     NgZorroAntdModule,
     HttpModule,
     BrowserModule,
     CommonModule,
-    NgJhipsterModule
+    NgJhipsterModule,
+    Ng2Webstorage
   ],
   providers:[
     SystemConfig,

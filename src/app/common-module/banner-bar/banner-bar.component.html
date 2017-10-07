@@ -1,5 +1,10 @@
-<div class="logo"></div>
+<div class="logo">
+    <img [src]="sysconfig.logo" style="width:100%;"/>
+</div>
 <div class="bannertitle">{{sysconfig.systemName}}</div>
 <ul nz-menu [nzTheme]="'dark'" [nzMode]="'horizontal'" style="line-height: 64px;">
   <li nz-menu-item *ngFor="let menu of sysconfig.menus; index as i; first as isFirst" (click)="selectMenu(menu)" [ngClass]="{'ant-menu-item-selected': menu.selected}">{{menu.menuName}}</li>
+  <li class="rightbtn" style="margin-right:0;" (click)="logout()"><i class="anticon anticon-logout" style="font-size:150%;"></i></li>
+  <li class="rightbtn" style="margin-right:0;"><i class="anticon anticon-user" style="font-size:150%;"></i> {{loginUser.userName}}</li>
+  <li class="rightbtn" style="margin-right:0;"><nz-badge [nzDot]="true"><ng-template #content><i class="anticon anticon-mail" style="font-size:150%;"></i></ng-template></nz-badge> </li>
 </ul>

@@ -10,6 +10,7 @@ import { CommonModuleModule } from './common-module/common-module.module';
 import { LoginComponent } from './common-module/login/login.component';
 import { WelcomePageComponent } from './common-module/welcome-page/welcome-page.component';
 import { BusinessModuleModule } from './business-module/business-module.module';
+import { Ng2Webstorage } from 'ngx-webstorage';
 
 // 定义系统路由
 const routes: Routes = [
@@ -31,6 +32,7 @@ const routes: Routes = [
     BrowserModule,
     FormsModule,
     HttpModule,
+    Ng2Webstorage,
     BrowserAnimationsModule,
     NgZorroAntdModule,
     CommonModuleModule,

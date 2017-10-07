@@ -1,0 +1,39 @@
+:host ::ng-deep .logo {
+    width: 64px;
+    height: 64px;
+    background: #333;
+    border-radius: 6px;
+    margin: 0 0;
+    float: left;
+  }
+
+  :host ::ng-deep .bannertitle{
+      min-width:200px;
+      height:64px;
+      line-height:64px;
+      margin: 0 10px;
+      float: left;
+      font-size:150%;
+      color:#fff;
+      text-overflow: ellipsis;
+  }
+  .loginpanel{
+    min-height: 400px ;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    max-width: 400px !important;
+    box-shadow: 2px 2px 2px rgba(3,3,3,0.2);
+  }
+
+  .login-form {
+    max-width: 300px;
+  }
+
+  .login-form-forgot {
+    float: right;
+  }
+
+  .login-form-button {
+    width: 100%;
+  }
